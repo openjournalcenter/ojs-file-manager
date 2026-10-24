@@ -11,8 +11,6 @@ A native File Manager plugin for Open Journal Systems (OJS) 3.4+. Designed to pr
 
 ![File Manager Screenshot](docs/screenshot.webp)
 
----
-
 ## Key Features
 
 - **Site Administration Integration**: Accessible directly from Site Administration (`/admin/filemanager`).
@@ -33,15 +31,11 @@ A native File Manager plugin for Open Journal Systems (OJS) 3.4+. Designed to pr
   - File content sanitization (SVG/HTML inline script and XSS payload detection).
   - Critical system files protected from deletion or renaming.
 
----
-
 ## System Requirements
 
 - Open Journal Systems (OJS) 3.4.0 or higher
 - PHP 8.0, 8.1, 8.2, 8.3, or 8.4
 - Write permissions on managed storage directories
-
----
 
 ## Installation
 
@@ -62,15 +56,11 @@ A native File Manager plugin for Open Journal Systems (OJS) 3.4+. Designed to pr
 
 5. Open the File Manager from the **Administration > File Manager** menu or the action panel on the **Site Administration** page.
 
----
-
 ## Authors & Maintainers
 
 - **Author**: Dimar Tarmizi
 - **Organization**: [Open Journal Center](https://github.com/openjournalcenter)
 - **Repository**: [https://github.com/openjournalcenter/ojs-file-manager](https://github.com/openjournalcenter/ojs-file-manager)
-
----
 
 ## License
 
