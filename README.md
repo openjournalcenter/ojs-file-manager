@@ -4,14 +4,10 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![OJS 3.4+](https://img.shields.io/badge/OJS-3.4%2B-0072B2?style=for-the-badge)](https://pkp.sfu.ca/ojs/)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](LICENSE)
 
-A native File Manager plugin for Open Journal Systems (OJS) 3.4+. Designed to provide Site Administrators with secure, direct management of OJS installation files and directories from the administration panel.
+A native File Manager plugin for Open Journal Systems (OJS). Designed to provide Site Administrators with secure, direct management of OJS installation files and directories from the administration panel.
 
 ![File Manager Screenshot](docs/screenshot.webp)
-
----
 
 ## Key Features
 
@@ -33,16 +29,6 @@ A native File Manager plugin for Open Journal Systems (OJS) 3.4+. Designed to pr
   - File content sanitization (SVG/HTML inline script and XSS payload detection).
   - Critical system files protected from deletion or renaming.
 
----
-
-## System Requirements
-
-- Open Journal Systems (OJS) 3.4.0 or higher
-- PHP 8.0, 8.1, 8.2, 8.3, or 8.4
-- Write permissions on managed storage directories
-
----
-
 ## Installation
 
 1. Clone the repository into your OJS plugins directory:
@@ -62,15 +48,11 @@ A native File Manager plugin for Open Journal Systems (OJS) 3.4+. Designed to pr
 
 5. Open the File Manager from the **Administration > File Manager** menu or the action panel on the **Site Administration** page.
 
----
-
 ## Authors & Maintainers
 
 - **Author**: Dimar Tarmizi
 - **Organization**: [Open Journal Center](https://github.com/openjournalcenter)
 - **Repository**: [https://github.com/openjournalcenter/ojs-file-manager](https://github.com/openjournalcenter/ojs-file-manager)
-
----
 
 ## License
 
